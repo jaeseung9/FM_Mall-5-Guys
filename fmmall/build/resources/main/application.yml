@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fmmall?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: ohgiraffers
+    password: ohgiraffers
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    open-in-view: false
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+jwt:
+  secret: "c3c1bb17a4e44793b49f8230dd9e2c93cbf02a0137b045fb"
+  access-token-expiration: 3600000
+  refresh-token-expiration: 1209600000
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs

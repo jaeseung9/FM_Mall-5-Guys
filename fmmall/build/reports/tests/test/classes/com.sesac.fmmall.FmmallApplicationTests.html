@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - FmmallApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>FmmallApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.sesac.fmmall.html">com.sesac.fmmall</a> &gt; FmmallApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.495s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.495s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:10:56.099 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sesac.fmmall.FmmallApplicationTests]: FmmallApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:10:56.210 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.sesac.fmmall.FmmallApplication for test class com.sesac.fmmall.FmmallApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2025-12-08T10:10:56.663+09:00  INFO 19604 --- [    Test worker] c.sesac.fmmall.FmmallApplicationTests    : Starting FmmallApplicationTests using Java 21.0.8 with PID 19604 (started by Admin in D:\lecture\FM_Mall-5-Guys\fmmall)
+2025-12-08T10:10:56.665+09:00  INFO 19604 --- [    Test worker] c.sesac.fmmall.FmmallApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-12-08T10:10:57.553+09:00  INFO 19604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-08T10:10:57.650+09:00  INFO 19604 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 16 JPA repository interfaces.
+2025-12-08T10:10:58.260+09:00  INFO 19604 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-08T10:10:58.326+09:00  INFO 19604 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-08T10:10:58.363+09:00  INFO 19604 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-08T10:10:58.693+09:00  INFO 19604 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-08T10:10:58.725+09:00  INFO 19604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-08T10:10:58.873+09:00  INFO 19604 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45d46254
+2025-12-08T10:10:58.875+09:00  INFO 19604 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-08T10:11:00.135+09:00  INFO 19604 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-08T10:11:00.191+09:00 DEBUG 19604 --- [    Test worker] org.hibernate.SQL                        : 
+    alter table product 
+       modify column description TEXT
+Hibernate: 
+    alter table product 
+       modify column description TEXT
+2025-12-08T10:11:00.211+09:00 DEBUG 19604 --- [    Test worker] org.hibernate.SQL                        : 
+    alter table product 
+       modify column product_status enum ('DISCOUNT','LOW_STOCK','ON_SALE') not null
+Hibernate: 
+    alter table product 
+       modify column product_status enum ('DISCOUNT','LOW_STOCK','ON_SALE') not null
+2025-12-08T10:11:00.228+09:00 DEBUG 19604 --- [    Test worker] org.hibernate.SQL                        : 
+    alter table refund 
+       modify column refund_type enum ('FULL','PARTIAL') not null
+Hibernate: 
+    alter table refund 
+       modify column refund_type enum ('FULL','PARTIAL') not null
+2025-12-08T10:11:00.239+09:00 DEBUG 19604 --- [    Test worker] org.hibernate.SQL                        : 
+    alter table refund_item 
+       modify column refund_status enum ('APPROVED','COMPLETED','REJECTED','REQUESTED') not null
+Hibernate: 
+    alter table refund_item 
+       modify column refund_status enum ('APPROVED','COMPLETED','REJECTED','REQUESTED') not null
+2025-12-08T10:11:00.400+09:00  INFO 19604 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-08T10:11:01.292+09:00  INFO 19604 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-12-08T10:11:02.139+09:00  INFO 19604 --- [    Test worker] c.sesac.fmmall.FmmallApplicationTests    : Started FmmallApplicationTests in 5.763 seconds (process running for 7.024)
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>WARNING: A Java agent has been loaded dynamically (C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at 2025. 12. 8. 오전 10:11:02</p>
+</div>
+</div>
+</body>
+</html>

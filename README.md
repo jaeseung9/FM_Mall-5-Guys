@@ -723,10 +723,9 @@ public class SecurityConfig {
 <!-- Credits -->
 <h2 id="credits">12) 👏 크레딧 & 참고 자료</h2>
 <p>
-  <b>개발자</b>: [이름]<br/>
-  <b>Email</b>: [이메일]<br/>
-  <b>GitHub</b>: <a href="[GitHub 프로필]" target="_blank" rel="noreferrer">[GitHub 프로필]</a><br/>
-  <b>Blog</b>: <a href="[블로그]" target="_blank" rel="noreferrer">[블로그]</a>
+  <b>개발자</b>: 서재승 <br/>
+  <b>Email</b>: seojaeseung9@gmail.com  <br/>
+  <b>Blog</b>: <a href="https://seungcoding.tistory.com/" target="_blank" rel="noreferrer">[블로그]</a>
 </p>
 
 <h3>참고 자료</h3>
